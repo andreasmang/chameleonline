@@ -55,7 +55,7 @@ The summer school featured two virtual talks from Dr. Georg Stadler (NYU) and Dr
 <p align="center">
 <img src="files/pics/georg-stadler.png" alt="Georg Stadler" height="200"/>
 &nbsp;&nbsp;&nbsp;
-<img src="files/pics/arvind-saibaba.jped" alt="Arvind Saibaba" height="200"/>
+<img src="files/pics/arvind-saibaba.jpeg" alt="Arvind Saibaba" height="200"/>
 </p>
 
 ### Participants
