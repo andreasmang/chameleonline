@@ -9,7 +9,7 @@ This webpage overviews events related to *C*omputational and m*A*thematical *ME*
 ## Summer School 2025
 
 <p align="center">
-<img src="files/pics/summer-school-2025-participants.jpeg" alt="Summer School Participants 2025" width="400"/>
+<img src="files/pics/summer-school-2025-participants.jpeg" alt="Summer School Participants 2025" width="600"/>
 </p>
 
 
@@ -22,6 +22,8 @@ A tentative schedule for the summer school is included below.
 Code snippets for the problems discussed in this class will be posted on GitHub: https://github.com/andreasmang/chameleon.
 
 
+### Schedule
+
 | Time          | Monday           | Tuesday          | Wednesday        | Thursday         | Friday           |
 |---------------|------------------|------------------|------------------|------------------|------------------|
 | 0900 - 1030   | Lecture 1        | Lecture 3        | Lecture 5        | Lecture 7        | Talk             |
@@ -30,6 +32,9 @@ Code snippets for the problems discussed in this class will be posted on GitHub:
 | 1230 - 1300   | Q&A              | Q&A              | Q&A              | Q&A              |                  |
 | 1300 - 1430   | Lunch            | Lunch            | Lunch            | Lunch            |                  |
 | 1430 - 1700   | Independent Work | Independent Work | Independent Work | Independent
+
+### Date and Location
+The summer school took place at the University of Houston in CBB 124, August 11 to August 15, 2025, 9 AM to 5 PM.
 
 ### Lectures
 
@@ -43,6 +48,14 @@ The summer school included eight lectures. These lectures covered the following 
 * Inverse Problems Governed by Dynamical Systems
 * Numerical Methods for Machine Learning 
 
+
+### Invited Research Talks
+The summer school featured two virtual talks from Dr. Georg Stadler (NYU) and Dr. Arvind Saibaba (NC State) on Friday.
+
 ### Participants
 
-40 participants attended the workshop. They discussed the presented material, worked on project assignments related to the material covered during the lectures, and participated in a poster presentation. The participants are listed on the following webpage.
+Over 40 participants attended the first installment of this summer school. They discussed the presented material, worked on project assignments related to the material covered during the lectures, and participated in a poster presentation. The participants are listed on the following [webpage](pages/2025-SUMMERSCHOOL.md).
+
+
+### Support
+The summer school is financially supported by NSF under the award [DMS-2145845](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2145845) and by the Research Computing Data Core at the University of Houston.
