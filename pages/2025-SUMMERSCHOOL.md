@@ -55,8 +55,7 @@
 - Predicting Health Insurance Coverage Using a Global-Local Model, **Thomas Duong** (University of Houston-Downtown), Maggie Ha (University of Houston-Downtown), Dr. Dexter Cahoy (University of Houston-Downtown)
 - Using Echo-State Networks to Reproduce Rare Events in Chaotic Systems, **Anton Erofeev** (University of Houston), Balasubramanya T. Nadiga (Los Alamos National Laboratory), Ilya Timofeyev (University of Houston) 
 - Efficient Multiscale MCMC via Subdomain Projection, Luis Felipe Pereira (University of Texas at Dallas), Marcio Borges (Laboratório Nacional de Computação Científica), **Aidan Gettemy** (University of Texas at Dallas)
-- Efficient Numerical Methods for Multispecies Tumor Growth Simulations, Asikul Islam (University of Houston), Andreas Mang (University of Houston)
+- Efficient Numerical Methods for Multispecies Tumor Growth Simulations, **Asikul Islam** (University of Houston), Andreas Mang (University of Houston)
 - Tensor-Based Parallel Computing for Finding Minimal Models of Disjunctive Logic Programs, Hien D. Nguyen (Vietnam National University); **Thang Nguyen** (New Mexico State University), Chiaki Sakama (Wakayama University)
-- Morphological Analysis of Astrocyte Images,  Murad Hossen (University of Houston), Nicolas Charon (University of Houston), Demetrio Labate (University of Houston)
-- Presenter’s name and affiliation - Murad Hossen, Dept. of Mathematics, University of Houston
-- PCA-Guided Denoising for Hyperspectral Imagery in Low-SNR Scenarios: A Poster Presentation, Sajjadul Bari (University of Houston), Demetrio Labate (University of Houston)
+- Morphological Analysis of Astrocyte Images, **Murad Hossen** (University of Houston), Nicolas Charon (University of Houston), Demetrio Labate (University of Houston)
+- PCA-Guided Denoising for Hyperspectral Imagery in Low-SNR Scenarios, **Sajjadul Bari** (University of Houston), Demetrio Labate (University of Houston)
