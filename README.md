@@ -1,5 +1,5 @@
 <p align="center">
-<img src="files/logos/chameleonline-logo-transparent.png" alt="ChAMELEONLINE"  width="200"/>
+<img src="files/logos/chameleonline-logo-transparent.png" alt="ChAMELEONLINE"  width="300"/>
 </p>
 
 This webpage overviews events related to *C*omputational and m*A*thematical *ME*thods in machine *LE*arning, *O*ptimization and i*N*ference (**ChAMELEON**) --- a lecture and a summer school I have developed over the last couple of years.
@@ -52,6 +52,12 @@ The summer school included eight lectures. These lectures covered the following 
 ### Invited Research Talks
 The summer school featured two virtual talks from Dr. Georg Stadler (NYU) and Dr. Arvind Saibaba (NC State) on Friday.
 
+<p align="center">
+<img src="files/pics/georg-stadler.png" alt="Georg Stadler" height="200"/>
+&nbsp;&nbsp;&nbsp;
+<img src="files/pics/arvind-saibaba.jped" alt="Arvind Saibaba" height="200"/>
+</p>
+
 ### Participants
 
 Over 40 participants attended the first installment of this summer school. They discussed the presented material, worked on project assignments related to the material covered during the lectures, and participated in a poster presentation. The participants are listed on the following [webpage](pages/2025-SUMMERSCHOOL.md).
@@ -59,3 +65,8 @@ Over 40 participants attended the first installment of this summer school. They 
 
 ### Support
 The summer school is financially supported by NSF under the award [DMS-2145845](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2145845) and by the Research Computing Data Core at the University of Houston.
+
+
+<p align="center">
+<img src="files/logos/nsf-logo.png" alt="NSF" width="200"/>
+</p>
