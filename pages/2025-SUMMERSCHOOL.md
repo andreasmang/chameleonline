@@ -1,10 +1,12 @@
 # ChAMELEON Summer School 2025
 
+[← Back to ChAMELEON](../)
+
 <p align="center">
 <img src="../files/pics/summer-school-2025-participants.jpeg" alt="Summer School Participants 2025" width="600"/>
 </p>
 
-### Participants 
+## Participants
 
 - Adebiyi, Taiwo; University of Houston
 - Adhikari, Karan; University of Houston
@@ -15,15 +17,15 @@
 - Bari, Sajjadul; University of Houston
 - Barnes, John; University of Houston
 - Basnet, Raju; University of Houston
-- Bhatt, Harshit; North Carolina State University
 - Bhandari, Pujan Singh; University of Houston
-- Chumbipuma, George; Rice University
+- Bhatt, Harshit; North Carolina State University
 - Chukwuemeka, Christopher; University of Houston
+- Chumbipuma, George; Rice University
 - Dobbs, Kristen; University of Houston
 - Duong, Thomas; Rice University
 - Erofeev, Anton; University of Houston
-- Gettemy, Aidan; The University of Texas at Dallas
-- Ha, Maggie; University of Houston Downtown
+- Gettemy, Aidan; University of Texas at Dallas
+- Ha, Maggie; University of Houston-Downtown
 - Hasan, Ahmed Al; University of Houston
 - Hawkins, Elizabeth; Rice University
 - Hossen, Murad; University of Houston
@@ -49,13 +51,13 @@
 - Yadav, Akash; University of Houston
 
 
-### Poster Presentations
+## Poster Presentations
 
-- Mathematical model for tuberculosis with copasi, **Maggie Ha** (University of Houston Downtown)
+- Mathematical model for tuberculosis with copasi, **Maggie Ha** (University of Houston-Downtown)
 - Predicting Health Insurance Coverage Using a Global-Local Model, **Thomas Duong** (University of Houston-Downtown), Maggie Ha (University of Houston-Downtown), Dr. Dexter Cahoy (University of Houston-Downtown)
-- Using Echo-State Networks to Reproduce Rare Events in Chaotic Systems, **Anton Erofeev** (University of Houston), Balasubramanya T. Nadiga (Los Alamos National Laboratory), Ilya Timofeyev (University of Houston) 
+- Using Echo-State Networks to Reproduce Rare Events in Chaotic Systems, **Anton Erofeev** (University of Houston), Balasubramanya T. Nadiga (Los Alamos National Laboratory), Ilya Timofeyev (University of Houston)
 - Efficient Multiscale MCMC via Subdomain Projection, Luis Felipe Pereira (University of Texas at Dallas), Marcio Borges (Laboratório Nacional de Computação Científica), **Aidan Gettemy** (University of Texas at Dallas)
 - Efficient Numerical Methods for Multispecies Tumor Growth Simulations, **Asikul Islam** (University of Houston), Andreas Mang (University of Houston)
-- Tensor-Based Parallel Computing for Finding Minimal Models of Disjunctive Logic Programs, Hien D. Nguyen (Vietnam National University); **Thang Nguyen** (New Mexico State University), Chiaki Sakama (Wakayama University)
+- Tensor-Based Parallel Computing for Finding Minimal Models of Disjunctive Logic Programs, Hien D. Nguyen (Vietnam National University), **Thang Nguyen** (New Mexico State University), Chiaki Sakama (Wakayama University)
 - Morphological Analysis of Astrocyte Images, **Murad Hossen** (University of Houston), Nicolas Charon (University of Houston), Demetrio Labate (University of Houston)
 - PCA-Guided Denoising for Hyperspectral Imagery in Low-SNR Scenarios, **Sajjadul Bari** (University of Houston), Demetrio Labate (University of Houston)
