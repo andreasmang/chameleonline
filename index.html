@@ -42,7 +42,7 @@ title: ChAMELEON
 
     <figure class="photo">
       <a href="{{ '/files/pics/summer-school-2025-participants.jpeg' | relative_url }}">
-        <img src="{{ '/files/pics/summer-school-2025-participants.jpeg' | relative_url }}" alt="Group photo of the participants of the ChAMELEON Summer School 2025 on the University of Houston campus" width="1600" height="1200">
+        <img src="{{ '/files/pics/summer-school-2025-participants.jpeg' | relative_url }}" alt="Group photo of the participants of the ChAMELEON Summer School 2025 on the University of Houston campus" width="1600" height="1200" loading="lazy">
       </a>
       <figcaption>Participants of the first ChAMELEON summer school, August 2025.</figcaption>
     </figure>
@@ -106,7 +106,7 @@ title: ChAMELEON
       <li><span class="swatch k-work"></span>Independent work</li>
       <li><span class="swatch k-lunch"></span>Lunch</li>
     </ul>
-    <div class="table-scroll">
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Schedule">
       <table class="schedule">
         <thead>
           <tr>
@@ -141,7 +141,7 @@ title: ChAMELEON
         <div>
           <h3>{{ s.name }}</h3>
           <p class="muted">{{ s.affiliation }}</p>
-          <a class="link" href="{{ s.url }}">Homepage <span aria-hidden="true">↗</span></a>
+          <a class="link" href="{{ s.url }}">Homepage<span class="visually-hidden"> of {{ s.name }}</span> <span aria-hidden="true">↗</span></a>
         </div>
       </article>
       {% endfor %}
@@ -197,6 +197,7 @@ title: ChAMELEON
 </section>
 
 <section id="support" class="section">
+  <h2 class="visually-hidden">Support</h2>
   <div class="wrap support">
     <img src="{{ '/files/logos/nsf-logo.png' | relative_url }}" alt="U.S. National Science Foundation logo" width="88" height="88" loading="lazy">
     <p>The summer school was financially supported by NSF under the award <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2145845">DMS-2145845</a> and by the <a href="https://www.uh.edu/research/rcdc/">Research Computing Data Core</a> at the University of Houston.</p>

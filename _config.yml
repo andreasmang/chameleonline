@@ -1,17 +1,15 @@
 title: ChAMELEON
-tagline: Computational and mathematical methods in machine learning, optimization and inference
+tagline: Machine Learning, Optimization and Inference
 description: >-
   Lectures and a summer school at the University of Houston on computational and mathematical
-  methods at the intersection of machine learning, inverse problems, and statistical inference.
+  methods in machine learning, inverse problems, and inference.
 lang: en-US
 author: Andreas Mang
 logo: /files/logos/chameleonline-logo.png
 
 plugins:
   - jekyll-seo-tag
-
-twitter:
-  card: summary_large_image
+  - jekyll-sitemap
 
 defaults:
   - scope:
