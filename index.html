@@ -1,0 +1,204 @@
+---
+layout: default
+title: ChAMELEON
+---
+{% assign d = site.data.summerschool2025 %}
+{% assign institutions = d.participants | map: "affiliation" | uniq %}
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">ChAMELEON · Lectures and summer school</p>
+      <h1 aria-label="Computational and Mathematical Methods in Machine Learning, Optimization and Inference"><span class="hl">C</span>omputational and m<span class="hl">A</span>thematical <span class="hl">ME</span>thods in machine <span class="hl">LE</span>arning, <span class="hl">O</span>ptimization and i<span class="hl">N</span>ference</h1>
+      <p class="lead">A lecture and a summer school developed over the last couple of years by <a href="https://www.math.uh.edu/~andreas/">Andreas Mang</a> in the Department of Mathematics at the University of Houston.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#summer-school-2025">Summer School 2025</a>
+        <a class="btn" href="https://github.com/andreasmang/chameleon">Code on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <img class="hero-logo" src="{{ '/files/logos/chameleonline-logo-transparent.png' | relative_url }}" alt="ChAMELEONLINE logo" width="600" height="400">
+  </div>
+</section>
+
+<section class="stats" aria-label="Summer School 2025 in numbers">
+  <div class="wrap">
+    <dl class="stat-grid">
+      <div><dt>days</dt><dd>{{ d.days }}</dd></div>
+      <div><dt>lectures</dt><dd>{{ d.lectures }}</dd></div>
+      <div><dt>invited talks</dt><dd>{{ d.speakers | size }}</dd></div>
+      <div><dt>participants</dt><dd>{{ d.participants | size }}</dd></div>
+      <div><dt>institutions</dt><dd>{{ institutions | size }}</dd></div>
+      <div><dt>posters</dt><dd>{{ d.posters | size }}</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="summer-school-2025" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">{{ d.dates }} · University of Houston</p>
+      <h2>Summer School 2025</h2>
+    </header>
+
+    <figure class="photo">
+      <a href="{{ '/files/pics/summer-school-2025-participants.jpeg' | relative_url }}">
+        <img src="{{ '/files/pics/summer-school-2025-participants.jpeg' | relative_url }}" alt="Group photo of the participants of the ChAMELEON Summer School 2025 on the University of Houston campus" width="1600" height="1200">
+      </a>
+      <figcaption>Participants of the first ChAMELEON summer school, August 2025.</figcaption>
+    </figure>
+
+    <div class="split">
+      <div>
+        <p>This one-week summer school introduced participants to mathematical techniques at the intersection of machine learning, inverse problems, and statistical inference, with an emphasis on numerical aspects. Mornings included lectures that provided a foundational understanding of the field. Participants learned about state-of-the-art approaches for solving both deterministic and statistical inverse problems of varying complexity. In the afternoons, participants engaged in hands-on assignments to gain practical experience. They learned how to execute code on a modern high-performance computing architecture.</p>
+        <p>The summer school also featured research talks by leading scientists in the field. Participants also had the opportunity to present their research results during a poster session.</p>
+      </div>
+      <aside class="card facts" aria-label="At a glance">
+        <h3>At a glance</h3>
+        <dl>
+          <dt>Dates</dt><dd>{{ d.dates }}</dd>
+          <dt>Time</dt><dd>{{ d.time }}</dd>
+          <dt>Location</dt><dd>{{ d.location }}</dd>
+          <dt>Format</dt><dd>In person; lectures in the morning, hands-on work in the afternoon</dd>
+          <dt>Audience</dt><dd>Primarily graduate students</dd>
+          <dt>Background</dt><dd>Real analysis, optimization theory, and linear algebra</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="topics" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Mornings</p>
+      <h2>Lecture topics</h2>
+      <p class="section-lead">The {{ d.lectures }} lectures covered the following topics.</p>
+    </header>
+    <div class="topic-grid">
+      {% for t in d.topics %}
+      <article class="card topic">
+        <span class="topic-num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+        <h3>{{ t.title }}</h3>
+        <p>{{ t.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+    <article class="card card-highlight hands-on">
+      <div>
+        <p class="eyebrow">Afternoons</p>
+        <h3>Hands-on sessions</h3>
+        <p class="muted">{{ d.hands_on }}</p>
+      </div>
+      <a class="btn" href="https://github.com/andreasmang/chameleon">Code templates on GitHub <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+</section>
+
+<section id="schedule" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">{{ d.dates }}</p>
+      <h2>Schedule</h2>
+    </header>
+    <ul class="legend">
+      <li><span class="swatch k-lecture"></span>Lectures and talks</li>
+      <li><span class="swatch k-qa"></span>Breakout and Q&amp;A</li>
+      <li><span class="swatch k-work"></span>Independent work</li>
+      <li><span class="swatch k-lunch"></span>Lunch</li>
+    </ul>
+    <div class="table-scroll">
+      <table class="schedule">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            {% for day in d.schedule.days %}<th scope="col">{{ day }}</th>{% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in d.schedule.rows %}
+          <tr>
+            <th scope="row">{{ row.time }}</th>
+            {% for c in row.cells %}<td class="k-{{ c.kind }}">{{ c.label | escape }}</td>{% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="speakers" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Friday</p>
+      <h2>Invited research talks</h2>
+      <p class="section-lead">The summer school featured two virtual research talks.</p>
+    </header>
+    <div class="speaker-grid">
+      {% for s in d.speakers %}
+      <article class="card speaker">
+        <img src="{{ s.photo | relative_url }}" alt="Portrait of {{ s.name }}" width="112" height="112" loading="lazy">
+        <div>
+          <h3>{{ s.name }}</h3>
+          <p class="muted">{{ s.affiliation }}</p>
+          <a class="link" href="{{ s.url }}">Homepage <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="participants" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Community</p>
+      <h2>Participants and posters</h2>
+      <p class="section-lead">Over 40 participants attended the first installment of this summer school. They discussed the presented material, worked on project assignments related to the material covered during the lectures, and participated in a poster presentation.</p>
+    </header>
+    <h3 class="subhead">Institutions represented</h3>
+    {% assign groups = d.participants | group_by: "affiliation" | sort: "size" | reverse %}
+    <ul class="chips">
+      {% for g in groups %}<li>{{ g.name }} <span class="chip-count">{{ g.size }}</span></li>{% endfor %}
+    </ul>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ '/pages/2025-SUMMERSCHOOL.html' | relative_url }}">Participants and poster presentations</a>
+    </div>
+  </div>
+</section>
+
+<section id="resources" class="section">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Learn more</p>
+      <h2>Resources</h2>
+    </header>
+    <div class="resource-grid">
+      <article class="card">
+        <h3>Code templates</h3>
+        <p class="muted">Python code for problems discussed during the summer school, including linear and logistic regression, derivative checks for regularized least-squares problems, line-search optimization, k-means clustering, and a multilayer perceptron trained on MNIST.</p>
+        <a class="link" href="https://github.com/andreasmang/chameleon">github.com/andreasmang/chameleon <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="card">
+        <h3>Further reading</h3>
+        {% for group in d.reading %}
+        <details{% if forloop.first %} open{% endif %}>
+          <summary>{{ group.topic }}</summary>
+          <ul class="refs">
+            {% for b in group.books %}
+            <li><a href="https://doi.org/{{ b.doi }}"><cite>{{ b.title }}</cite></a> — {{ b.authors }}. {{ b.publisher }}, {{ b.year }}.</li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endfor %}
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="support" class="section">
+  <div class="wrap support">
+    <img src="{{ '/files/logos/nsf-logo.png' | relative_url }}" alt="U.S. National Science Foundation logo" width="88" height="88" loading="lazy">
+    <p>The summer school was financially supported by NSF under the award <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2145845">DMS-2145845</a> and by the <a href="https://www.uh.edu/research/rcdc/">Research Computing Data Core</a> at the University of Houston.</p>
+  </div>
+</section>

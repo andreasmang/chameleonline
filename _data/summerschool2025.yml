@@ -1,0 +1,198 @@
+# ChAMELEON Summer School 2025
+#
+# Content for the home page (index.html) and the participants page
+# (pages/2025-SUMMERSCHOOL.html). The numbers of participants, posters,
+# institutions, and invited talks shown on the site are computed from the
+# lists below.
+
+dates: "August 11–15, 2025"
+time: "9:00 AM – 5:00 PM"
+location: "CBB 124, University of Houston"
+days: 5
+lectures: 8
+
+topics:
+  - title: "Introduction to Inverse Problems"
+    text: "Forward and inverse problems and the notion of well-posedness, motivated by linear regression, denoising, deblurring, computed tomography, inverse heat conduction, inverse scattering, tumor modeling, and image registration."
+  - title: "Spectral Operator Theory in Inverse Problems"
+    text: "The singular value decomposition of matrices and compact operators, the Picard condition, and how spectral decay causes ill-posedness; spectral regularization such as truncated SVD, Tikhonov regularization, and Landweber iteration, and how to choose the regularization parameter."
+  - title: "Convex Optimization"
+    text: "Convex sets and functions, projections, Fenchel conjugates, Lagrangian duality, and the KKT optimality conditions."
+  - title: "Convex Non-Smooth Optimization"
+    text: "Subgradient methods, proximal operators and the Moreau envelope, proximal gradient methods, and ADMM, with sparsity-promoting problems such as the LASSO as a running example."
+  - title: "Optimization in Machine Learning"
+    text: "Iterative shrinkage-thresholding (ISTA and FISTA) and its learned, unrolled counterpart LISTA, along with adaptive gradient methods such as AdaGrad, RMSProp, and Adam."
+  - title: "Inverse Problems Governed by Dynamical Systems"
+    text: "Inverse problems constrained by partial differential equations, from the inverse heat equation to large-scale applications: discretization, adjoint-based sensitivities, reduced-space Newton–Krylov methods, preconditioning, and scalability on CPUs and GPUs."
+  - title: "Numerical Methods for Machine Learning"
+    text: "Numerical building blocks behind learning algorithms, including finite-difference discretizations, derivative checks, and line-search methods."
+  - title: "Bayesian Inverse Problems"
+    text: "Likelihood and prior modeling, the posterior in finite dimensions and in function space, connections to Tikhonov regularization, MAP estimation and the Laplace approximation, sampling with Metropolis–Hastings and preconditioned Crank–Nicolson, variational inference, hierarchical models, and optimal experimental design."
+
+hands_on: "Afternoons were devoted to hands-on assignments that combined analysis with computing in Python on the high-performance computing cluster of the Research Computing Data Core at the University of Houston. Problems ranged from well-posedness, least squares, convexity, derivative checks, and proximal operators to eigenfunction expansions for the heat equation and learned ISTA (LISTA) for denoising handwritten digits."
+
+schedule:
+  days: [Monday, Tuesday, Wednesday, Thursday, Friday]
+  rows:
+    - time: "09:00–10:30"
+      cells:
+        - { label: "Lecture 1", kind: lecture }
+        - { label: "Lecture 3", kind: lecture }
+        - { label: "Lecture 5", kind: lecture }
+        - { label: "Lecture 7", kind: lecture }
+        - { label: "Talk", kind: talk }
+    - time: "10:30–11:00"
+      cells:
+        - { label: "Breakout", kind: breakout }
+        - { label: "Breakout", kind: breakout }
+        - { label: "Breakout", kind: breakout }
+        - { label: "Breakout", kind: breakout }
+        - { label: "Breakout", kind: breakout }
+    - time: "11:00–12:30"
+      cells:
+        - { label: "Lecture 2", kind: lecture }
+        - { label: "Lecture 4", kind: lecture }
+        - { label: "Lecture 6", kind: lecture }
+        - { label: "Lecture 8", kind: lecture }
+        - { label: "Talk", kind: talk }
+    - time: "12:30–13:00"
+      cells:
+        - { label: "Q&A", kind: qa }
+        - { label: "Q&A", kind: qa }
+        - { label: "Q&A", kind: qa }
+        - { label: "Q&A", kind: qa }
+        - { label: "", kind: empty }
+    - time: "13:00–14:30"
+      cells:
+        - { label: "Lunch", kind: lunch }
+        - { label: "Lunch", kind: lunch }
+        - { label: "Lunch", kind: lunch }
+        - { label: "Lunch", kind: lunch }
+        - { label: "", kind: empty }
+    - time: "14:30–17:00"
+      cells:
+        - { label: "Independent Work", kind: work }
+        - { label: "Independent Work", kind: work }
+        - { label: "Independent Work", kind: work }
+        - { label: "Independent Work", kind: work }
+        - { label: "", kind: empty }
+
+speakers:
+  - name: "Georg Stadler"
+    affiliation: "Courant Institute of Mathematical Sciences, New York University"
+    photo: /files/pics/georg-stadler.jpeg
+    url: "https://math.nyu.edu/~stadler/"
+  - name: "Arvind Saibaba"
+    affiliation: "Department of Mathematics, North Carolina State University"
+    photo: /files/pics/arvind-saibaba.jpeg
+    url: "https://asaibab.math.ncsu.edu/"
+
+posters:
+  - title: "Mathematical model for tuberculosis with copasi"
+    authors:
+      - { name: "Maggie Ha", affiliation: "University of Houston-Downtown", presenter: true }
+  - title: "Predicting Health Insurance Coverage Using a Global-Local Model"
+    authors:
+      - { name: "Thomas Duong", affiliation: "University of Houston-Downtown", presenter: true }
+      - { name: "Maggie Ha", affiliation: "University of Houston-Downtown" }
+      - { name: "Dexter Cahoy", affiliation: "University of Houston-Downtown" }
+  - title: "Using Echo-State Networks to Reproduce Rare Events in Chaotic Systems"
+    authors:
+      - { name: "Anton Erofeev", affiliation: "University of Houston", presenter: true }
+      - { name: "Balasubramanya T. Nadiga", affiliation: "Los Alamos National Laboratory" }
+      - { name: "Ilya Timofeyev", affiliation: "University of Houston" }
+  - title: "Efficient Multiscale MCMC via Subdomain Projection"
+    authors:
+      - { name: "Luis Felipe Pereira", affiliation: "University of Texas at Dallas" }
+      - { name: "Marcio Borges", affiliation: "Laboratório Nacional de Computação Científica" }
+      - { name: "Aidan Gettemy", affiliation: "University of Texas at Dallas", presenter: true }
+  - title: "Efficient Numerical Methods for Multispecies Tumor Growth Simulations"
+    authors:
+      - { name: "Asikul Islam", affiliation: "University of Houston", presenter: true }
+      - { name: "Andreas Mang", affiliation: "University of Houston" }
+  - title: "Tensor-Based Parallel Computing for Finding Minimal Models of Disjunctive Logic Programs"
+    authors:
+      - { name: "Hien D. Nguyen", affiliation: "Vietnam National University" }
+      - { name: "Thang Nguyen", affiliation: "New Mexico State University", presenter: true }
+      - { name: "Chiaki Sakama", affiliation: "Wakayama University" }
+  - title: "Morphological Analysis of Astrocyte Images"
+    authors:
+      - { name: "Murad Hossen", affiliation: "University of Houston", presenter: true }
+      - { name: "Nicolas Charon", affiliation: "University of Houston" }
+      - { name: "Demetrio Labate", affiliation: "University of Houston" }
+  - title: "PCA-Guided Denoising for Hyperspectral Imagery in Low-SNR Scenarios"
+    authors:
+      - { name: "Sajjadul Bari", affiliation: "University of Houston", presenter: true }
+      - { name: "Demetrio Labate", affiliation: "University of Houston" }
+  - title: "Low-Rank and Matrix-Free Hessian Compressions for PDE-Constrained Inverse Problems"
+    authors:
+      - { name: "Harshit Bhatt", affiliation: "North Carolina State University", presenter: true }
+      - { name: "Chao Chen", affiliation: "North Carolina State University" }
+      - { name: "Alen Alexanderian", affiliation: "North Carolina State University" }
+
+participants:
+  - { name: "Adebiyi, Taiwo", affiliation: "University of Houston" }
+  - { name: "Adhikari, Karan", affiliation: "University of Houston" }
+  - { name: "Akram, Maria", affiliation: "Riphah International University, Lahore Campus" }
+  - { name: "Amare, Rohan", affiliation: "UT MD Anderson Cancer Center" }
+  - { name: "Amiri, Pegah", affiliation: "University of Houston" }
+  - { name: "Anilkumar, Akshay", affiliation: "University of Houston" }
+  - { name: "Bari, Sajjadul", affiliation: "University of Houston" }
+  - { name: "Barnes, John", affiliation: "University of Houston" }
+  - { name: "Basnet, Raju", affiliation: "University of Houston" }
+  - { name: "Bhandari, Pujan Singh", affiliation: "University of Houston" }
+  - { name: "Bhatt, Harshit", affiliation: "North Carolina State University" }
+  - { name: "Chukwuemeka, Christopher", affiliation: "University of Houston" }
+  - { name: "Chumbipuma, George", affiliation: "Rice University" }
+  - { name: "Dobbs, Kristen", affiliation: "University of Houston" }
+  - { name: "Duong, Thomas", affiliation: "Rice University" }
+  - { name: "Erofeev, Anton", affiliation: "University of Houston" }
+  - { name: "Gettemy, Aidan", affiliation: "University of Texas at Dallas" }
+  - { name: "Ha, Maggie", affiliation: "University of Houston-Downtown" }
+  - { name: "Hasan, Ahmed Al", affiliation: "University of Houston" }
+  - { name: "Hawkins, Elizabeth", affiliation: "Rice University" }
+  - { name: "Hossen, Murad", affiliation: "University of Houston" }
+  - { name: "Islam, Asikul", affiliation: "University of Houston" }
+  - { name: "Islam, Md Shafiqul", affiliation: "University of Houston" }
+  - { name: "Islam, Sahidul", affiliation: "University of Houston" }
+  - { name: "Kadir, Md Abdul", affiliation: "University of Houston" }
+  - { name: "Maduri, Venkat", affiliation: "University of Houston" }
+  - { name: "Mily, Kamrun Nahar", affiliation: "University of Houston" }
+  - { name: "Muhammad Taseer, Ali", affiliation: "University of Houston" }
+  - { name: "Nazir, Aijaz", affiliation: "University of Houston" }
+  - { name: "Nguyen, Hoa", affiliation: "Trinity University" }
+  - { name: "Nguyen, Thang", affiliation: "New Mexico State University" }
+  - { name: "Rasel, Shahrear Khan", affiliation: "University of Houston" }
+  - { name: "Regmi, Samundra", affiliation: "University of Houston" }
+  - { name: "Riasat, Nazia", affiliation: "North Dakota State University" }
+  - { name: "Segovia, Santiago", affiliation: "University of Houston" }
+  - { name: "Sharma Poudel, Sanjay", affiliation: "University of Houston" }
+  - { name: "Spencer, Damon", affiliation: "Rice University" }
+  - { name: "Tumwekwase, Solomon", affiliation: "University of Houston" }
+  - { name: "Vashishtha, Ankita", affiliation: "University of Houston" }
+  - { name: "Viray, Daniel", affiliation: "University of Houston" }
+  - { name: "Yadav, Akash", affiliation: "University of Houston" }
+
+reading:
+  - topic: "Inverse problems"
+    books:
+      - { authors: "C. R. Vogel", title: "Computational Methods for Inverse Problems", publisher: "SIAM", year: 2002, doi: "10.1137/1.9780898717570" }
+      - { authors: "J. Kaipio and E. Somersalo", title: "Statistical and Computational Inverse Problems", publisher: "Springer", year: 2005, doi: "10.1007/b138659" }
+      - { authors: "P. C. Hansen", title: "Discrete Inverse Problems: Insight and Algorithms", publisher: "SIAM", year: 2010, doi: "10.1137/1.9780898718836" }
+      - { authors: "A. Kirsch", title: "An Introduction to the Mathematical Theory of Inverse Problems", publisher: "Springer", year: 2011, doi: "10.1007/978-1-4419-8474-6" }
+      - { authors: "A. Tarantola", title: "Inverse Problem Theory and Methods for Model Parameter Estimation", publisher: "SIAM", year: 2005, doi: "10.1137/1.9780898717921" }
+  - topic: "Optimization"
+    books:
+      - { authors: "S. Boyd and L. Vandenberghe", title: "Convex Optimization", publisher: "Cambridge University Press", year: 2004, doi: "10.1017/CBO9780511804441" }
+      - { authors: "J. Nocedal and S. J. Wright", title: "Numerical Optimization", publisher: "Springer", year: 2006, doi: "10.1007/978-0-387-40065-5" }
+      - { authors: "Y. Nesterov", title: "Lectures on Convex Optimization", publisher: "Springer", year: 2018, doi: "10.1007/978-3-319-91578-4" }
+  - topic: "Uncertainty quantification"
+    books:
+      - { authors: "J. Bardsley", title: "Computational Uncertainty Quantification for Inverse Problems", publisher: "SIAM", year: 2018, doi: "10.1137/1.9781611975383" }
+      - { authors: "T. J. Sullivan", title: "Introduction to Uncertainty Quantification", publisher: "Springer", year: 2015, doi: "10.1007/978-3-319-23395-6" }
+      - { authors: "L. Tenorio", title: "An Introduction to Data Analysis and Uncertainty Quantification for Inverse Problems", publisher: "SIAM", year: 2017, doi: "10.1137/1.9781611974928" }
+  - topic: "Data science and machine learning"
+    books:
+      - { authors: "D. Calvetti and E. Somersalo", title: "Mathematics of Data Science: A Computational Approach to Clustering and Classification", publisher: "SIAM", year: 2020, doi: "10.1137/1.9781611976373" }
+      - { authors: "G. Gan, C. Ma, and J. Wu", title: "Data Clustering: Theory, Algorithms, and Applications", publisher: "SIAM", year: 2020, doi: "10.1137/1.9781611976335" }
+      - { authors: "O. Calin", title: "Deep Learning Architectures: A Mathematical Approach", publisher: "Springer", year: 2020, doi: "10.1007/978-3-030-36721-3" }

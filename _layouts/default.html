@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    {% seo %}
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/files/logos/favicon-32.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/files/logos/apple-touch-icon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% assign home = '/' | relative_url %}
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="{{ home }}">ChAMELEON</a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="{{ home }}#summer-school-2025">Summer School 2025</a></li>
+            <li><a href="{{ home }}#topics">Topics</a></li>
+            <li><a href="{{ home }}#schedule">Schedule</a></li>
+            <li><a href="{{ home }}#speakers">Speakers</a></li>
+            <li><a href="{{ '/pages/2025-SUMMERSCHOOL.html' | relative_url }}"{% if page.url contains '2025-SUMMERSCHOOL' %} aria-current="page"{% endif %}>Participants</a></li>
+            <li><a href="{{ home }}#resources">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <p><strong>ChAMELEON</strong> · Organized by <a href="https://www.math.uh.edu/~andreas/">Andreas Mang</a>, Department of Mathematics, University of Houston</p>
+        <p><a href="https://github.com/andreasmang/chameleonline">Website source</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

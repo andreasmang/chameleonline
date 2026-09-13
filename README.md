@@ -1,72 +1,20 @@
 <p align="center">
-<img src="files/logos/chameleonline-logo-transparent.png" alt="ChAMELEONLINE"  width="300"/>
+<img src="files/logos/chameleonline-logo-transparent.png" alt="ChAMELEONLINE" width="300"/>
 </p>
 
-This webpage overviews events related to *C*omputational and m*A*thematical *ME*thods in machine *LE*arning, *O*ptimization and i*N*ference (**ChAMELEON**) --- a lecture and a summer school I have developed over the last couple of years.
+Website for events related to *C*omputational and m*A*thematical *ME*thods in machine *LE*arning, *O*ptimization and i*N*ference (**ChAMELEON**).
 
+**Website:** https://andreasmang.github.io/chameleonline/
 
+## Editing the site
 
-## Summer School 2025
+The site is built with Jekyll and deployed to GitHub Pages on every push to `main`.
 
-<p align="center">
-<img src="files/pics/summer-school-2025-participants.jpeg" alt="Summer School Participants 2025" width="600"/>
-</p>
-
-
-This one-week summer school introduced participants to mathematical techniques at the intersection of machine learning, inverse problems, and statistical inference, with an emphasis on numerical aspects. Mornings included lectures that provided a foundational understanding of the field. Participants learned about state-of-the-art approaches for solving both deterministic and statistical inverse problems of varying complexity. In the afternoons, participants engaged in hands-on assignments to gain practical experience. They learned how to execute code on a modern high-performance computing architecture.
-
-The summer school also featured research talks by leading scientists in the field. Participants also had the opportunity to present their research results during a poster session.
-
-The schedule for the summer school is included below.
-
-Code snippets for the problems discussed in this class are available on GitHub: [github.com/andreasmang/chameleon](https://github.com/andreasmang/chameleon).
-
-
-### Schedule
-
-| Time          | Monday           | Tuesday          | Wednesday        | Thursday         | Friday           |
-|---------------|------------------|------------------|------------------|------------------|------------------|
-| 0900 - 1030   | Lecture 1        | Lecture 3        | Lecture 5        | Lecture 7        | Talk             |
-| 1030 - 1100   | Breakout         | Breakout         | Breakout         | Breakout         | Breakout         |
-| 1100 - 1230   | Lecture 2        | Lecture 4        | Lecture 6        | Lecture 8        | Talk             |
-| 1230 - 1300   | Q&A              | Q&A              | Q&A              | Q&A              |                  |
-| 1300 - 1430   | Lunch            | Lunch            | Lunch            | Lunch            |                  |
-| 1430 - 1700   | Independent Work | Independent Work | Independent Work | Independent Work |                  |
-
-### Date and Location
-The summer school took place at the University of Houston in CBB 124, August 11 to August 15, 2025, 9 AM to 5 PM.
-
-### Lectures
-
-The summer school included eight lectures, which covered the following topics:
-
-* Introduction to Inverse Problems
-* Spectral Operator Theory in Inverse Problems
-* Convex Optimization
-* Convex Non-Smooth Optimization
-* Optimization in Machine Learning
-* Inverse Problems Governed by Dynamical Systems
-* Numerical Methods for Machine Learning
-
-
-### Invited Research Talks
-The summer school featured two virtual talks from Dr. Georg Stadler (NYU) and Dr. Arvind Saibaba (NC State) on Friday.
-
-<p align="center">
-<img src="files/pics/georg-stadler.jpeg" alt="Georg Stadler" height="200"/>
-&nbsp;&nbsp;&nbsp;
-<img src="files/pics/arvind-saibaba.jpeg" alt="Arvind Saibaba" height="200"/>
-</p>
-
-### Participants
-
-Over 40 participants attended the first installment of this summer school. They discussed the presented material, worked on project assignments related to the material covered during the lectures, and participated in a poster presentation. See the [list of participants and poster presentations](pages/2025-SUMMERSCHOOL.md).
-
-
-### Support
-The summer school was financially supported by NSF under the award [DMS-2145845](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2145845) and by the Research Computing Data Core at the University of Houston.
-
-
-<p align="center">
-<img src="files/logos/nsf-logo.png" alt="NSF" width="200"/>
-</p>
+| What | Where |
+|------|-------|
+| Summer school 2025 content (topics, schedule, speakers, posters, participants, reading list) | `_data/summerschool2025.yml` |
+| Home page | `index.html` |
+| Participants and posters page | `pages/2025-SUMMERSCHOOL.html` |
+| Page template (header, navigation, footer) | `_layouts/default.html` |
+| Styles | `assets/css/site.css` |
+| Images and logos | `files/` |
